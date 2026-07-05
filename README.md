@@ -16,6 +16,17 @@ Scans only public GitHub repositories, builds a complete project structure, dete
 - ⚡ Support Groq API (fast)
 - 🤗 Support Hugging Face Inference API
 
+## 🛠️ Tools & Technologies
+
+### Core Technologies
+
+* **Python 3.11+**
+* **AST (`ast`)** — Parses Python source code to extract Imports, classes, functions
+* **NetworkX** — Builds the internal module dependency graph.
+* **Groq API** — Generates repository summary
+* **Prompt Engineering** — Strict LLM instruction only 
+* **Heuristic Knowledge Extraction** — Meta driven inference(rule of thumb) 
+
 ## 📦 Installation
 
 Paste the repository: For example,
