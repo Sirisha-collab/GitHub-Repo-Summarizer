@@ -6,13 +6,6 @@ Scans only public GitHub repositories, builds a complete project structure, dete
 - 📂 Analyze local folders or GitHub repositories
 - 🔄 Clone public GitHub repositories automatically
 -  Generate a repository file tree
-- 📦 Detect:
-  - Imports
-  - Classes
-  - Functions
-  - Methods
-  - Entry points
-  - External dependencies
 - ⚡ Support Groq API (fast)
 - 🤗 Support Hugging Face Inference API
 
@@ -21,7 +14,7 @@ Scans only public GitHub repositories, builds a complete project structure, dete
 ### Core Technologies
 
 * **Python 3.11+**
-* **AST (`ast`)** — Parses Python source code to extract Imports, classes, functions
+* **Pytorch (`ast`)** — Parses Python source code to extract Imports, classes, functions
 * **NetworkX** — Builds the internal module dependency graph.
 * **Groq API** — Generates repository summary
 * **Prompt Engineering** — Strict LLM instruction only 
