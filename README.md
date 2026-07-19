@@ -1,5 +1,5 @@
 # GitHub-Repo-Summarizer
-Scans only public GitHub repositories, builds a complete project structure, detects architecture, and generates summary using Large Language Models.
+Scans only public GitHub repositories, builds a complete project structure, detects architecture, and generates summary using Large Language Models. This explains whole project in a short, easy-to-understand summary.
 
 ## ✨ Features
 
